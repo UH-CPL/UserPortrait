@@ -64,10 +64,6 @@ $stressBar = array
 		array()
 	);
 
-// echo '<pre>';
-// print_r($stressBar);
-// echo '</pre>';
-
 
 // ==================== Assignments ====================
 // Assignment to Subject Data from URL parameters
@@ -80,11 +76,6 @@ $genders = isset($_GET['genders']) ? explode(',', strtoupper($_GET['genders'])) 
 $no_exams = isset($_GET["no_exams"]) ? $_GET["no_exams"] : $no_exams;
 $traits = isset($_GET['traits']) ? explode(',', strtoupper($_GET['traits'])) : $traits;
 
-// echo '<pre>';
-// print_r($genders);
-// echo '</pre>';
-// $genders = explode(',', $genders1);
-
 
 
 // ==================== Grades ====================
@@ -94,10 +85,6 @@ $strGrades = isset($_GET['grades']) ? $_GET['grades'] : $grades;
 
 $strGrades = explode(';', $strGrades);
 
-// echo '<pre>';
-// print_r($strGrades);
-// echo '</pre>';
-
 if ( isset($strGrades) )
 	$grades = array();
 
@@ -105,23 +92,12 @@ foreach ($strGrades as $temp) {
 	$grades[] = explode(",", $temp);
 }
 
-// echo '<pre>';
-// print_r($grades);
-// echo '</pre>';
-
 
 
 // ==================== StressBars ====================
 
 $strStressBars = isset($_GET['sBars']) ? $_GET['sBars'] : $stressBar;
-
- // $strStressBars = "10,20,70:5,85,10;30,50,20:15,15,70";
-
 $strStressBars = explode(';', $strStressBars);
-
-// echo '<pre>';
-// print_r($strStressBars);
-// echo '</pre>';
 
 if ( isset($strStressBars) )
 	$stressBar = array();
@@ -139,10 +115,6 @@ foreach ($strStressBars as $temp)
 	$idx++;
 }
 
-// echo '<pre>';
-// print_r($stressBar);
-// echo '</pre>';
-
 
 // ==================== SAI Values ====================
 $hsv = isset($_GET["hsv"]) ? $_GET["hsv"] : $hsv;
@@ -151,11 +123,6 @@ if ( $hsv == 'no' )
 	$width_SAI = 0;
 else		
 	$width_SAI = 6;
-
-// echo $hsv;
-//$subjects = count($genders);
-
-
 
 
 
@@ -198,10 +165,7 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 	// Add prefix file name (png)
 	$selected_gender = $selected_gender.".png";
 
-	// print_r($selected_gender);
-	// echo "<p>";
 
-	
 
 	echo "
 		<td width='350'>
@@ -255,9 +219,6 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 			$selected_sai_left = $selected_sai_left.".png";
 			$selected_sai_right = $selected_sai_right.".png";
 
-			// echo "<pre>";
-			// print_r($stressBar);
-			// echo ", ";
 
 			echo "
 			<tr>
