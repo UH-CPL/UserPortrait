@@ -1,5 +1,5 @@
 ## <a href="http://kyeongan.cpl.uh.edu/projects/css/">User Portrait</a>
-User Portrait is a visualization tool to condense large-scale data specially Affective User Study. It was bulit HTML5+CSS3 when it came out. But I built this tools with PHP whilch allows to draw many research data in a quick manner.
+User Portrait is a visualization tool to condense large-scale data in User Study.
 
 ## Quick start
 Few quick start options are available:
