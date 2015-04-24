@@ -23,7 +23,6 @@
 // if there are no parameters,
 // it generates a User Portrait with default values
 
-
 $study_title = "Your project name will be here.";
 $subjects = 7; // define number of subjects
 $cols = 3;// define number of columns for display
@@ -49,13 +48,13 @@ $stressBar = array
 	(
 		array(
 			array(20,50,30),		// Percentile of Relaxed (30%)
-			array(80,5,15),		// Percentile of Normal (50%)
-			array(15)		// Percentile of Stressed (30%)
+			array(80,5,15),			// Percentile of Normal (50%)
+			array(15)				// Percentile of Stressed (30%)
 			),
 		array(
 			array(30,40,30),		// Percentile of Relaxed (30%)
-			array(0,0,40),		// Percentile of Normal (50%)
-			array(10,10,10)		// Percentile of Stressed (30%)
+			array(0,0,40),			// Percentile of Normal (50%)
+			array(10,10,10)			// Percentile of Stressed (30%)
 			),
 		array(),
 		array(),
@@ -317,78 +316,7 @@ echo "</tr></table>";
  
 ?>
 
-<style type="text/css">
 
-	body{
-		font-family: verdana, sans-serif;
-		font-size: 11px;
-		background-color: #FFFFFF;
-		/*margin:5em 5em 5em 5em;*/
-		line-height:150%;
-		margin:10 0 10 0;
-		padding:0;
-	}
-
-	td {
-		font-family: verdana, sans-serif;
-		font-size: 11px;
-		line-height:150%;
-	}
-
-	h1 {
-		font-family: ColaborateThinRegular, Arial, sans-serif;
-		font-size: 2.5em;
-		line-height: 1.2em;
-		margin: 0 0 .5em;
-		color: #00728F;
-	}
-
-	h2 {
-		font-family: ColaborateThinRegular, Arial, sans-serif;
-		font-size: 1.7em;
-		line-height: 1.2em;
-		margin: 0 0 .5em;
-		color: #00728F;
-	}
-
-	.btn {
-		-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-		-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-		box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
-		background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
-		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
-		background-color:#79bbff;
-		-moz-border-radius:6px;
-		-webkit-border-radius:6px;
-		border-radius:6px;
-		border:1px solid #84bbf3;
-		display:inline-block;
-		color:#ffffff;
-		font-family:arial;
-		font-size:10px;
-
-		padding:1px 5px;
-		text-decoration:none;
-		text-shadow:1px 1px 0px #528ecc;
-		text-align:center;
-		width:30px;
-
-	}.btn:hover {
-		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
-		background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
-		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
-		background-color:#378de5;
-	}.btn:active {
-		position:relative;
-		top:1px;
-	}
-
-	sbar {
-    	float: left;
-	}
-
-</style>
   
 
 </html>
