@@ -96,9 +96,9 @@ foreach ($strStressBars as $temp)
 // ==================== SAI Values ====================
 $hsv = isset($_GET["hsv"]) ? $_GET["hsv"] : $hsv;
 
-if ( $hsv == 'no' )		
+if ( $hsv == 'no' )
 	$width_SAI = 0;
-else		
+else
 	$width_SAI = 6;
 
 
@@ -189,9 +189,8 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 					else if ( $SAIs[$array_point][$pSAI] == 1 )
 						$selected_sai_right = $selected_sai_right."_s";	// stressed (s)
 				}
-				
 				$pSAI++;
-			}			
+			}
 
 			$selected_sai_left = $selected_sai_left.".png";
 			$selected_sai_right = $selected_sai_right.".png";
@@ -243,7 +242,7 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 			echo "<td><img src='./../common/img/".$selected_sai_right."' height='12' width='".$width_SAI."'/></td>
 				<td width='35' align='right'><!--<font color='white'>0</font>-->".$grades[$array_point][$idx-1]."%</td>
 			</tr>";
-			
+
 		}
 
 			echo "</table>
