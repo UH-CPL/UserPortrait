@@ -1,22 +1,13 @@
 <html>
- <head>
-	<title> User Portrait </title>
+<head>
+	<title> Home | User Portrait</title>
 	<meta name="Generator" content="EditPlus">
-	<meta name="Author" content="Karl Kyeongan Kwon">
-	<meta name="Keywords" content="Karl Kyeongan Kwon">
-	<meta name="Description" content="Karl Kyeongan Kwon">
-
+	<meta name="Generator" content="Sublime Text">
+	<meta name="Author" content="Kyeongan (Karl) Kwon">
+	<meta name="Keywords" content="Data Visualization, Information Visualization">
+	<meta name="Description" content="User Portrait is a visualization tool to condense large-scale data in User Study.">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-
-	<script type="text/javascript">
-		
-		function alertIt()
-		{
-			alert("Not Available ...");
-		}
-		
-	</script>
-
+</head>
 
 <?php 
 
@@ -317,7 +308,6 @@ echo "</tr></table>";
  
 ?>
 
-
-  
+<script src="./js/functions.js"></script>
 
 </html>
