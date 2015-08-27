@@ -9,50 +9,36 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<?php 
+<?php
 
 // ==================== Default Values ====================
 // if there are no parameters,
 // it generates a User Portrait with default values
 
-$study_title = "Your project name will be here.";
-$subjects = 7; // define number of subjects
-$cols = 3;// define number of columns for display
-$genders = array(M,F,F,M,M,F,M,M,M,F); // Male or Female
-$no_exams = 5;
-$traits = array(0,-1,1,0,0,0,0);	// -1, 0, 1 (Relaxed, Normal, Stressed)
-
-$grades = array
-	(
-		array(96,95,100),
-		array(),
-		array(),
-		array(), array(), array(), array(), array()
-	);
 
 $hsv = 'yes';	// (yes, no) if yes, width size is 6px otherwise 0 [hsv = has SAI Value]
 $SAIs = array
-	(
-		array(), array(), array(), array(), array(), array(), array()
+(
+	array(), array(), array(), array(), array(), array(), array()
 	);
 
 $stressBar = array
-	(
-		array(
+(
+	array(
 			array(20,50,30),		// Percentile of Relaxed (30%)
 			array(80,5,15),			// Percentile of Normal (50%)
 			array(15)				// Percentile of Stressed (30%)
 			),
-		array(
+	array(
 			array(30,40,30),		// Percentile of Relaxed (30%)
 			array(0,0,40),			// Percentile of Normal (50%)
 			array(10,10,10)			// Percentile of Stressed (30%)
 			),
-		array(),
-		array(),
-		array(),
-		array(),
-		array()
+	array(),
+	array(),
+	array(),
+	array(),
+	array()
 	);
 
 
@@ -253,8 +239,7 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 			}
 
 			echo "</td>";
-						
-						
+
 			echo "<td><img src='./../common/img/".$selected_sai_right."' height='12' width='".$width_SAI."'/></td>
 				<td width='35' align='right'><!--<font color='white'>0</font>-->".$grades[$array_point][$idx-1]."%</td>
 			</tr>";
@@ -287,11 +272,11 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 		
 		  </td>
 		  </tr>
-			</table>        
-        
+			</table>
+
         </td>
 	";
-	
+
 	$array_point++;
 	$subject_index++;
 
