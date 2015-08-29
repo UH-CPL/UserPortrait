@@ -1,5 +1,5 @@
 ## <a href="http://kyeongan.cpl.uh.edu/projects/css/">User Portrait</a>
-User Portrait is a visualization tool to condense large-scale data in User Study.
+A data abstraction and visualization strategy named User Portrait that condensed the seeence of all the user information in a single view.
 
 ## Quick start
 Few quick start options are available:
