@@ -290,6 +290,6 @@ echo "</tr></table>";
 
 ?>
 
-<script src="./js/functions.js"></script>
+<script src="./js/functions.min.js"></script>
 
 </html>
