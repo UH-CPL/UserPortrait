@@ -6,7 +6,7 @@
 	<meta name="Author" content="Kyeongan (Karl) Kwon">
 	<meta name="Keywords" content="Data Visualization, Information Visualization, Tools">
 	<meta name="Description" content="User Portrait is a visualization tool to condense large-scale data in User Study.">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.min.css">
 </head>
 
 <?php
