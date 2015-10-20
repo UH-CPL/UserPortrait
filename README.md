@@ -1,6 +1,8 @@
 ## <a href="http://kyeongan.cpl.uh.edu/projects/css/">User Portrait</a>
 A data abstraction and visualization strategy named User Portrait that condensed the seeence of all the user information in a single view.
 
+![](./Docs/ConceptDiagram-Compact.png "")
+
 ## Quick start
 Few quick start options are available:
 Download the latest release.
