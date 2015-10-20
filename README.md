@@ -2,6 +2,7 @@
 A data abstraction and visualization strategy named User Portrait that condensed the seeence of all the user information in a single view.
 
 ![](./Docs/ConceptDiagram-Compact.png "")
+![](./Docs/entire_signals_large1.png "")
 
 ## Quick start
 Few quick start options are available:
