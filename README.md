@@ -8,6 +8,11 @@ Download the latest release.
 ## What's included
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
+## Tested Enviorments
+* Google Chrome
+* Safari
+* Internet Explorer 6+
+* FireFox
 
 ## API Documentations
 http://kyeongan.cpl.uh.edu/projects/css/api

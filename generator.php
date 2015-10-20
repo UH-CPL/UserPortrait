@@ -1,8 +1,8 @@
 <html>
 <head>
-	<title> Home | User Portrait</title>
+	<title> Home | User Portrait </title>
 	<meta name="Generator" content="EditPlus">
-	<meta name="Generator" content="Sublime Text">
+	<meta name="Generator" content="Sublime Text 3">
 	<meta name="Author" content="Kyeongan (Karl) Kwon">
 	<meta name="Keywords" content="Data Visualization, Information Visualization, Tools">
 	<meta name="Description" content="User Portrait is a visualization tool to condense large-scale data in User Study.">
