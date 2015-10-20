@@ -148,9 +148,9 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 		<td width='350'>
 
 			<table width='345' border='0' cellpadding='0' cellspacing='3' style='border:1px solid #000' align='center'>
-				  <tr>
+				<tr>
 					<td width='224' align='center' valign='middle'><h2>Subject S".str_pad($subject_index, 3, "0", STR_PAD_LEFT)."</h2><img src='./../common/img/".$selected_gender."' width='140'/></td></td>
-				  <td width='151' rowspan='2' valign='middle'>
+					<td width='151' rowspan='2' valign='middle'>
 
 				<!-- Profile Table -->
 				<table width='175' border='0' cellpadding='0' cellspacing='4' style='border:1px solid #6098EC'>
@@ -248,10 +248,10 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 			echo "</table>
 
 				</td>
-			  </tr>
-		  <tr align='center' valign='middle'>
+			</tr>
+			<tr align='center' valign='middle'>
 			<td width='224' valign='middle'>
-			
+
 			<table border='0' cellpadding='1' cellspacing='0'>
 				<tr>
 					<td>
@@ -268,9 +268,8 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 					</td>
 				</tr>
 			</table>
-		
-		  </td>
-		  </tr>
+		</td>
+		</tr>
 			</table>
 
         </td>
@@ -289,7 +288,6 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 
 echo "</tr></table>";
 
- 
 ?>
 
 <script src="./js/functions.js"></script>
