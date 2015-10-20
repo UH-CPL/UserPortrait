@@ -2,10 +2,10 @@
 A data abstraction and visualization strategy named User Portrait that condensed the seeence of all the user information in a single view.
 
 ### Concept Diagram
-![](./Docs/ConceptDiagram-Compact.png "")
+<img src="/Docs/ConceptDiagram-Compact.png" width="400">
 
 ### An example of Entire Signals
-![](./Docs/entire_signals_large1.png "")
+<img src="/Docs/entire_signals_large1.png" width="600">
 
 ## Quick start
 Few quick start options are available:
