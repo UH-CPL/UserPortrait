@@ -38,8 +38,8 @@ $studyNo;
 
 // Added two parameters for toyota project
 // on Mar 15, 2016 - Karl
-$SAIs_Percentile = array(25,50,75};
-$grade_Percentile = array(25,50,75};
+$SAIs_Percentile = array(25,50,75);
+$grade_Percentile = array(25,50,75);
 
 
 $namesExams = array
