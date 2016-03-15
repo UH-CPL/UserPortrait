@@ -117,6 +117,11 @@ $grade_Percentile = isset($_GET['grade_Percentile']) ? explode(',', strtoupper($
 // $genders = explode(',', $genders1);
 
 
+// echo "1: ". $grade_Percentile[0];
+// echo "<br>2: ". $grade_Percentile[1];
+// echo "<br>3: ". $grade_Percentile[2];
+
+
 
 // ==================== Grades ====================
 
@@ -358,6 +363,8 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 			$width_sbar_n;
 			$width_sbar_s;
 
+
+
 			for ( $three = 2 ; $three >= 0 ; $three -- )
 			{
 				if( !isset($stressBar[$array_point][$idx-1]) || count($stressBar[$array_point][$idx-1]) != 3 )
@@ -401,13 +408,16 @@ for( $tr=1 ; $tr<=$subjects ; $tr++ )
 
 			echo "<td><img src='./../common/img/".$selected_sai_right."' height='12' width='".$width_SAI."'/></td>";
 
-			if($grades[$array_point][$idx-1] <= $grade_Percentile[2]) {
+
+			if($grades[$array_point][$idx-1] <= $grade_Percentile[0]) {
 				echo "<td> </td><td width='35' align='right'> <img src='./../common/img/20p.png' height='12' width='".$width_Perfromance."'/> </td>";
 			}
 			else if($grades[$array_point][$idx-1] <= $grade_Percentile[1])
 				echo "<td> </td><td width='35' align='right' > <img src='./../common/img/40p.png' height='12' width='".$width_Perfromance."'/> </td>";
-			else if($grades[$array_point][$idx-1] <= $grade_Percentile[0])
+			else if($grades[$array_point][$idx-1] <= $grade_Percentile[2])
 				echo "<td> </td><td width='35' align='right'> <img src='./../common/img/80p.png' height='12' width='".$width_Perfromance."'/> </td>";
+			else if($grades[$array_point][$idx-1] == "NA")
+				echo "<td> </td><td width='35' align='right'>NA</td>";
 			else 
 				echo "<td> </td><td width='35' align='right'> <img src='./../common/img/100p.png' height='12' width='".$width_Perfromance."'/> </td>";
 
