@@ -1,0 +1,23 @@
+{
+  "name": "userportrait",
+  "version": "1.0.0",
+  "description": "Online Visualization Tool for User Study ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyeongan/UserPortrait.git"
+  },
+  "author": "Karl Kwon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyeongan/UserPortrait/issues"
+  },
+  "homepage": "https://github.com/Kyeongan/UserPortrait#readme",
+  "dependencies": {
+    "d3": "^3.5.17",
+    "nvd3": "^1.8.5"
+  }
+}
